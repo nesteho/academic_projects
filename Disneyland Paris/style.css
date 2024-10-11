@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+#Disneyland_Paris_logo {
+    height: auto;
+    width: 200px;
+}
+
+main {
+    background-color: lightgreen;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#title {
+    color: white;
+    background-color: blue;
+    margin: 0px;
+    padding: 15px;
+}
+
+footer {
+    background-color: rgb(255, 195, 0);
+    align-self: center;
+    padding: 15px 100px;
+}
+
+#landsImages img {
+    height: auto;
+    width: 200px;
+}
+
+#landsImages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#showButtons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.hide{
+    display: none !important;
+}
+.land{
+    display: flex;
+}
