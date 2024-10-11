@@ -1,0 +1,177 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/planning.css">
+    <link rel="stylesheet" href="style/recipe-container.css">
+    <link rel="stylesheet" href="style/shopping-list-container.css">
+    <link rel="stylesheet" href="style/back-nav.css">
+    <link rel="stylesheet" href="style/calendar.css">
+    <link rel="stylesheet" href="style/cards.css">
+    <link rel="stylesheet" ↪→ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" ... ↪→ />
+    <link rel="stylesheet" href="hide.css">
+    <script src="scripts/index.js"></script>
+    <script src="scripts/navigation.js"></script>
+
+    <title>Planning</title>
+</head>
+
+<body>
+    <div id="planning-container">
+
+        <h1 id="planning-titre">BATCHCOOKING.ESI</h1>
+        <div id="calendar-container">
+            <div class="Jour" id="lundi">
+                <h1>Lundi </h1>
+                <ul></ul>
+
+
+            </div>
+
+            <div class="Jour" id="mardi">
+                <h1> Mardi</h1>
+
+                <ul></ul>
+            </div>
+
+            <div class="Jour" id="mercredi">
+                <h1>Mercredi</h1>
+                <ul> </ul>
+            </div>
+
+            <div class="Jour" id="jeudi">
+                <h1>Jeudi</h1>
+
+                <ul>
+
+                </ul>
+            </div>
+
+            <div class="Jour" id="vendredi">
+                <h1>Vendredi</h1>
+                <ul>
+
+
+                </ul>
+            </div>
+
+            <div class="Jour" id="samedi">
+                <h1>Samedi</h1>
+                <ul> </ul>
+
+            </div>
+
+            <div class="Jour" id="dimanche">
+                <h1>Dimanche</h1>
+                <ul> </ul>
+            </div>
+
+        </div>
+        <nav id="listeCourses">
+            <button id="listeCoursesB">
+
+                <h2>La liste De Courses</h2>
+
+            </button>
+        </nav>
+
+        <div id="cards-container">
+
+        </div>
+
+    </div>
+
+
+    <div class="hide" id="recipe-container">
+        <h1></h1>
+
+        <img id="recipeImg" class="images" src="" alt="">
+
+        <ul class="ing"> </ul>
+
+        <div class="recette-body">
+            <ol class="steps">
+            </ol>
+
+            <nav>
+                <button class="pagePrécédente"> page précedente</button>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+    <div class="hide" id="list-container">
+        <nav>
+            <button class="pagePrécédente"> page précedente</button>
+
+        </nav>
+        <h1> LISTE DE COURSES</h1>
+
+        <div id="liste">
+            <div id="fruits et légumes">
+                <ul>
+                    <h2>fruits et légumes</h2>
+                    <li>Abricot</li>
+                    <li>Ananas</li>
+                    <li>Banane</li>
+                    <li>Kiwi</li>
+                    <li>Brocolis</li>
+                </ul>
+            </div>
+            <div id="Féculents">
+                <h2> Féculents</h2>
+                <ul>
+                    <li>Pommes de terre</li>
+                    <li>Patate douce</li>
+                    <li>Riz</li>
+                </ul>
+            </div>
+            <div id="Produits Laitiers">
+                <h2> Produits Laitiers</h2>
+                <ul>
+                    <li>Fromage </li>
+                    <li>Lait</li>
+
+                </ul>
+            </div>
+            <div id="Viande">
+                <h2> Viande</h2>
+                <ul>
+                    <li>Poulet</li>
+                    <li>Boeuf</li>
+                    <li>Veau</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <template class="hide" id="card">
+
+        <div class="fiche">
+            <div class="fiche-header">
+                <img class="images" src="img/chili.jpg" alt="">
+                <nav>
+                    <button class="afficheRecette"> Afficher la recette</button>
+                    <button class="ajoutP">Ajouter au planning</button>
+                </nav>
+
+            </div>
+
+            <div class="fiche-body">
+
+                <h2>Chili</h2>
+            </div>
+
+            <div class="fiche-footer">
+
+            </div>
+        </div>
+
+    </template>
+    
+</body>
+
+</html>

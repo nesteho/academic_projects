@@ -1,0 +1,19 @@
+{
+  "name": "juin-g60736",
+  "version": "1.0.0",
+  "description": "Ce dépot contient le code source de batchcooking.esi écrit en html, css et JavaScript.",
+  "main": "greeter-type.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.esi-bru.be/2022-2023/webg2/projets/juin-g60736.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.16"
+  }
+}

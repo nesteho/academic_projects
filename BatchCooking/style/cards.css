@@ -1,0 +1,99 @@
+#cards-container {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+.fiche {
+
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.fiche-header {
+
+    height: 40%;
+
+}
+
+.images {
+
+    height: 100%;
+    width: 100%;
+
+}
+.fiche nav {
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+.fiche-footer {
+
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+.fiche {
+
+    position: relative;
+    border: 5px solid black;
+}
+
+.fiche.scheduled {
+
+    border: 5px solid yellow !important;
+
+}
+
+.fiche.selected {
+
+    border: 5px solid red;
+
+}
+
+#afficheRecette {
+
+    display: inline-block;
+    flex-direction: right;
+
+}
+
+.Protéines,
+.Féculents,
+.Légumes {
+    
+    margin-left: 5px;
+    font-family: 'Gloock', serif;
+    border-radius: 5px;
+
+}
+
+.Protéines {
+
+    border: medium solid olive;
+    background-color: olive;
+
+}
+
+.Féculents {
+
+    border: medium solid rgb(185, 185, 38);
+    background-color: rgb(185, 185, 38);
+
+}
+
+.Légumes {
+
+    border: medium solid rgb(224, 224, 98);
+    background-color: rgb(224, 224, 98);
+
+}

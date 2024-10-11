@@ -1,0 +1,60 @@
+#recipe-container {
+    
+    margin-left: 60px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: " titre titre"
+        "image ingrédients  "
+        "recette-body recette-body";
+
+}
+
+.recette-header {
+
+    grid-area: recette-header;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h1 {
+
+    grid-area: titre;
+    margin-right: 5px;
+
+}
+
+.recette-body {
+
+    grid-area: recette-body;
+    margin-left: -20px;
+    margin-bottom: 50px;
+
+}
+
+
+.images {
+
+    grid-area: image;
+    height: 95%;
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+ul {
+
+    margin-top: 0;
+    grid-area: ingrédients;
+    margin-right: 400px;
+
+}
+
+ol li {
+
+    margin-bottom: 15px;
+
+}

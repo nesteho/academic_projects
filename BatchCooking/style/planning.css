@@ -1,0 +1,65 @@
+body {
+
+    margin: 0px 10px 10px,10px;
+
+}
+
+#planning-container {
+
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 60%;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: " titre titre"
+        " calendrier fichesR "
+        "  listeCourses fichesR  ";
+        gap: 15px;
+
+}
+
+#planning-titre {
+
+    margin: 0px 10px 0px 0px;
+    padding: 10px;
+    grid-area: titre;
+    background-color: darkolivegreen;
+    color: goldenrod;
+
+}
+
+
+#cards-container {
+
+    grid-area: fichesR;
+    background-color: white;
+   
+}
+
+
+#calendar-container,
+#cards-container {
+
+    row-gap: 10px;
+}
+
+#listeCoursesB {
+
+    background-size: cover;
+    background-image: url("../style/img/mur-beton-marron-vecteur-rayures_53876-143109.avif");
+    width: 100%;
+
+}
+
+#listeCourses {
+
+    grid-area: listeCourses;
+}
+
+#listeCourses h2 {
+
+    text-align: center;
+    color: goldenrod;
+    
+    
+}

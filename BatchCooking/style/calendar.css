@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+
+}
+#calendar-container {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    background-size: cover;
+    background-image: url(../style/img/fond\ marron.jpg);
+    width: 100%;
+    height: 100%;
+
+}
+
+h1:hover {
+
+    font-family: 'Righteous', cursive;
+    color: red;
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+.plat:hover {
+
+    font-family: 'Gloock', serif;
+    color: rgb(184, 11, 11);
+
+}
+
+#calendar-container div:hover {
+
+    background-color: rgba(245, 245, 245, 0.295);
+    color: rgb(184, 11, 11);
+
+}
+
+#calendar-container li:hover {
+
+    background-color: rgba(245, 245, 245, 0.295);
+    color: rgb(184, 11, 11);
+
+}
+
+li {
+
+    margin-bottom: 15px;
+}
+
+.Jour {
+
+    width: 150px;
+
+}

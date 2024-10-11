@@ -1,0 +1,19 @@
+
+.pagePrécédente  {
+
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    color: white;
+    background-color: olive;
+    transition: 2s;
+
+}
+
+.pagePrécédente :hover {
+
+    font-style: italic;
+    color: goldenrod;
+    background-color: darkgreen;
+
+}
